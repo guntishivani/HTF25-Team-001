@@ -1,0 +1,7 @@
+flask
+flask-cors
+openai-whisper
+tqdm
+ffmpeg-python
+python-multipart
+werkzeug

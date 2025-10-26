@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:02:00,000
+What are you doing here?
+
+2
+00:02:00,000 --> 00:04:00,000
+I am here to see the wedding.
+
+3
+00:04:00,000 --> 00:05:00,000
+Then?
+
+4
+00:05:00,000 --> 00:07:00,000
+You are not going to lie.
+
+5
+00:07:00,000 --> 00:09:00,000
+I mean not in this direction.
+
+6
+00:09:00,000 --> 00:09:03,000
+Here. In this area.
+
