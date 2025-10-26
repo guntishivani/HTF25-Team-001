@@ -19,7 +19,7 @@ CORS(app)  # Enable CORS for frontend connection
 
 UPLOAD_FOLDER = "uploads"
 OUTPUT_FOLDER = "outputs"
-ALLOWED_VIDEO_EXTENSIONS = {'mp4', 'avi', 'mov', 'mkv', 'webm', 'flv', 'wmv'}
+ALLOWED_VIDEO_EXTENSIONS = {'avi', 'mov', 'mkv', 'webm', 'flv', 'wmv'}
 
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
@@ -416,4 +416,5 @@ if __name__ == '__main__':
     print("📡 Server starting on http://127.0.0.1:5000")
     print("🔗 Frontend should connect to http://localhost:5000")
     print("=" * 60 + "\n")
+
     app.run(host='0.0.0.0', port=5000, debug=True)
