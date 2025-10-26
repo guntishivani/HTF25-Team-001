@@ -19,7 +19,7 @@ CORS(app)  # Enable CORS for frontend connection
 
 UPLOAD_FOLDER = "uploads"
 OUTPUT_FOLDER = "outputs"
-ALLOWED_VIDEO_EXTENSIONS = {'avi', 'mov', 'mkv', 'webm', 'flv', 'wmv'}
+ALLOWED_VIDEO_EXTENSIONS = {'mp4','avi', 'mov', 'mkv', 'webm', 'flv', 'wmv'}
 
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
@@ -418,3 +418,4 @@ if __name__ == '__main__':
     print("=" * 60 + "\n")
 
     app.run(host='0.0.0.0', port=5000, debug=True)
+
